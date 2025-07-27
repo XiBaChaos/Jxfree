@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f3f3;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: white;
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+.btn-download img {
+  margin: 20px 0;
+  transition: transform 0.3s;
+}
+
+.btn-download img:hover {
+  transform: scale(1.1);
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.features li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
