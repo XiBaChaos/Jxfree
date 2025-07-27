@@ -6,37 +6,40 @@ body {
 }
 
 .container {
-  background: white;
-  max-width: 700px;
-  margin: 50px auto;
-  padding: 40px;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
-  text-align: center;
+  background: #ffffff;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
   color: #2c3e50;
 }
 
+h2 {
+  margin-top: 30px;
+  color: #1abc9c;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+ul li::before {
+  content: "✔️ ";
+  color: green;
+  margin-right: 5px;
+}
+
 .btn-download img {
   margin: 20px 0;
-  transition: transform 0.3s;
+  transition: transform 0.2s;
 }
 
 .btn-download img:hover {
   transform: scale(1.1);
-}
-
-.features {
-  list-style: none;
-  padding: 0;
-  text-align: left;
-  margin-top: 20px;
-}
-
-.features li {
-  padding: 8px 0;
-  border-bottom: 1px solid #ddd;
-  font-size: 16px;
 }
